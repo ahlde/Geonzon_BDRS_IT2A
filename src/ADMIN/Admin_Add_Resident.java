@@ -49,7 +49,6 @@ public class Admin_Add_Resident extends javax.swing.JFrame {
         middlename = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
         lastname = new javax.swing.JTextField();
-        birth = new com.toedter.calendar.JDateChooser();
         jLabel13 = new javax.swing.JLabel();
         gender = new javax.swing.JComboBox<>();
         jLabel14 = new javax.swing.JLabel();
@@ -216,7 +215,6 @@ public class Admin_Add_Resident extends javax.swing.JFrame {
             }
         });
         jPanel3.add(lastname, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 320, 270, 30));
-        jPanel3.add(birth, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 380, 270, 30));
 
         jLabel13.setBackground(new java.awt.Color(13, 16, 63));
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -524,7 +522,6 @@ public class Admin_Add_Resident extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel add;
     private javax.swing.JLabel back;
-    private com.toedter.calendar.JDateChooser birth;
     private javax.swing.JComboBox<String> civil;
     private javax.swing.JLabel close;
     private javax.swing.JLabel close1;
